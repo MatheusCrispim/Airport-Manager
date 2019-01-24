@@ -32,10 +32,21 @@ OS X & Linux:
 composer install
 ```
 ```
-php artisan migrate
+Create a database in MySQL
+```
+```
+cp .env.example .env
+```
+```
+Open the .env and set the database settings in the following fields
+DB_HOST = database Host
+DB_DATABASE = database Name
+DB_USERNAME = database user
+DB_PASSWORD = database Password
 ```
 ```
 php artisan key:generate
+php artisan migrate
 ```
 ```
 npm install
