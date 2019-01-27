@@ -43,7 +43,7 @@ DB_USERNAME = database user
 DB_PASSWORD = database Password
 ```
 ```
-php artisan key:generate
+sudo php artisan key:generate
 ```
 ```
 php artisan migrate
