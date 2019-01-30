@@ -35,7 +35,7 @@ composer install
 ```
 cp .env.example .env
 ```
-Open the .env and set the database settings in the following fields
+Open the .env and set the database settings in the following fields:
 ```
 DB_HOST = database Host
 DB_DATABASE = database Name
@@ -54,9 +54,8 @@ npm install
 ```
 npm run dev
 ```
-```
 If you want to run this project in production, open .env and set the values for the following fields:
-
+```
 APP_ENV = production
 APP_DEBUG = false 
 ``` 
