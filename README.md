@@ -35,8 +35,8 @@ composer install
 ```
 cp .env.example .env
 ```
-```
 Open the .env and set the database settings in the following fields
+```
 DB_HOST = database Host
 DB_DATABASE = database Name
 DB_USERNAME = database user
